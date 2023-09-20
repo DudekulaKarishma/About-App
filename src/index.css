@@ -1,3 +1,6 @@
+html{
+  text-transform: capitalize;
+}
 .container {
   margin-top: 70px;
   display: flex;
@@ -5,6 +8,17 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 .inputText {
